@@ -1,4 +1,8 @@
-*, ::before, ::after {
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Lobster&display=swap');
+
+*, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -52,7 +56,7 @@
   --tw-contain-style:  ;
 }
 
-::backdrop {
+::backdrop{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -554,7 +558,7 @@ video {
   display: none;
 }
 
-.container {
+.container{
   width: 100%;
   margin-right: auto;
   margin-left: auto;
@@ -562,32 +566,41 @@ video {
   padding-left: 12px;
 }
 
-@media (min-width: 340px) {
-  .container {
+@media (min-width: 340px){
+  .container{
     max-width: 340px;
   }
 }
 
-@media (min-width: 540px) {
-  .container {
+@media (min-width: 540px){
+  .container{
     max-width: 540px;
     padding-right: 32px;
     padding-left: 32px;
   }
 }
 
-@media (min-width: 768px) {
-  .container {
+@media (min-width: 768px){
+  .container{
     max-width: 768px;
   }
 }
 
-@media (min-width: 1180px) {
-  .container {
+@media (min-width: 1180px){
+  .container{
     max-width: 1180px;
   }
 }
 
-.transform {
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+.w-32{
+  width: 8rem;
+}
+
+body{
+  --tw-bg-opacity: 1;
+  background-color: rgb(5 46 22 / var(--tw-bg-opacity));
+  font-family: Lobster, sans-serif;
+  letter-spacing: 0.05em;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
